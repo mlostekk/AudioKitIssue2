@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		44A4D93F64CA38974CA01AAB /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A4D576DC13DEFCE84C407F /* AppViewController.swift */; };
+		5D16D7521018BF71AC98B509 /* Pods_AudioKitIssue2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D41BC2460D1B3481F468DAB /* Pods_AudioKitIssue2.framework */; };
 		62482FE3F016FF04F4136F6D /* Pods_Wynton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BC6892E9D7730EE2065AE5 /* Pods_Wynton.framework */; };
 		AA31B1B5226ADB17008A0336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA31B1B4226ADB17008A0336 /* AppDelegate.swift */; };
 		AA31B1C2226ADB19008A0336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA31B1C1226ADB19008A0336 /* Assets.xcassets */; };
@@ -17,11 +18,14 @@
 /* Begin PBXFileReference section */
 		28BC6892E9D7730EE2065AE5 /* Pods_Wynton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wynton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1747AA75905AC976342887 /* Pods-Wynton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wynton.release.xcconfig"; path = "Target Support Files/Pods-Wynton/Pods-Wynton.release.xcconfig"; sourceTree = "<group>"; };
+		3D41BC2460D1B3481F468DAB /* Pods_AudioKitIssue2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioKitIssue2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A4D576DC13DEFCE84C407F /* AppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		79ED65E7BB66FF356A6C6015 /* Pods-AudioKitIssue2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioKitIssue2.release.xcconfig"; path = "Target Support Files/Pods-AudioKitIssue2/Pods-AudioKitIssue2.release.xcconfig"; sourceTree = "<group>"; };
 		AA31B1B1226ADB17008A0336 /* AudioKitIssue2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioKitIssue2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA31B1B4226ADB17008A0336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA31B1C1226ADB19008A0336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA31B1C6226ADB19008A0336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60A3118CE3514DA6B106692 /* Pods-AudioKitIssue2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioKitIssue2.debug.xcconfig"; path = "Target Support Files/Pods-AudioKitIssue2/Pods-AudioKitIssue2.debug.xcconfig"; sourceTree = "<group>"; };
 		C1E6780AB1ECEB8E44AD59BE /* Pods-Wynton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wynton.debug.xcconfig"; path = "Target Support Files/Pods-Wynton/Pods-Wynton.debug.xcconfig"; sourceTree = "<group>"; };
 		E7CA1477227C8A55007EB787 /* A1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A1.wav; sourceTree = "<group>"; };
 		F4E45EA0BCBDCC20D97EE5D0 /* Pods_WyntonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WyntonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +37,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62482FE3F016FF04F4136F6D /* Pods_Wynton.framework in Frameworks */,
+				5D16D7521018BF71AC98B509 /* Pods_AudioKitIssue2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				C1E6780AB1ECEB8E44AD59BE /* Pods-Wynton.debug.xcconfig */,
 				2B1747AA75905AC976342887 /* Pods-Wynton.release.xcconfig */,
+				B60A3118CE3514DA6B106692 /* Pods-AudioKitIssue2.debug.xcconfig */,
+				79ED65E7BB66FF356A6C6015 /* Pods-AudioKitIssue2.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -53,6 +60,7 @@
 			children = (
 				28BC6892E9D7730EE2065AE5 /* Pods_Wynton.framework */,
 				F4E45EA0BCBDCC20D97EE5D0 /* Pods_WyntonTests.framework */,
+				3D41BC2460D1B3481F468DAB /* Pods_AudioKitIssue2.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,7 +194,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Wynton-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AudioKitIssue2-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -326,7 +334,7 @@
 		};
 		AA31B1E0226ADB19008A0336 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1E6780AB1ECEB8E44AD59BE /* Pods-Wynton.debug.xcconfig */;
+			baseConfigurationReference = B60A3118CE3514DA6B106692 /* Pods-AudioKitIssue2.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -346,7 +354,7 @@
 		};
 		AA31B1E1226ADB19008A0336 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B1747AA75905AC976342887 /* Pods-Wynton.release.xcconfig */;
+			baseConfigurationReference = 79ED65E7BB66FF356A6C6015 /* Pods-AudioKitIssue2.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
