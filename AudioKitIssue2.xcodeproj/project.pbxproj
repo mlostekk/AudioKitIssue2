@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		44A4D93F64CA38974CA01AAB /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A4D576DC13DEFCE84C407F /* AppViewController.swift */; };
 		5D16D7521018BF71AC98B509 /* Pods_AudioKitIssue2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D41BC2460D1B3481F468DAB /* Pods_AudioKitIssue2.framework */; };
-		62482FE3F016FF04F4136F6D /* Pods_Wynton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BC6892E9D7730EE2065AE5 /* Pods_Wynton.framework */; };
 		AA31B1B5226ADB17008A0336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA31B1B4226ADB17008A0336 /* AppDelegate.swift */; };
 		AA31B1C2226ADB19008A0336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA31B1C1226ADB19008A0336 /* Assets.xcassets */; };
 		E7CA147B227C8A55007EB787 /* A1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E7CA1477227C8A55007EB787 /* A1.wav */; };
@@ -36,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62482FE3F016FF04F4136F6D /* Pods_Wynton.framework in Frameworks */,
 				5D16D7521018BF71AC98B509 /* Pods_AudioKitIssue2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

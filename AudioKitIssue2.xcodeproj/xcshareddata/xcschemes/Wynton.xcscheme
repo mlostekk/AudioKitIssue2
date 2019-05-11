@@ -29,26 +29,6 @@
       codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AA31B1CA226ADB19008A0336"
-               BuildableName = "WyntonTests.xctest"
-               BlueprintName = "WyntonTests"
-               ReferencedContainer = "container:AudioKitIssue2.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AA31B1D5226ADB19008A0336"
-               BuildableName = "WyntonUITests.xctest"
-               BlueprintName = "WyntonUITests"
-               ReferencedContainer = "container:AudioKitIssue2.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
